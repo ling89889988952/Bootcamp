@@ -1,3 +1,20 @@
 // main content
 
 @import "_vars";
+
+
+body {
+   
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+@import "modules/_header";
+@import "modules/_home";
+@import "modules/_features";
+@import "modules/_portfolio";
+@import "modules/_contact";
+@import "modules/_footer";

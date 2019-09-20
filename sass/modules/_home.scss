@@ -1,0 +1,60 @@
+#home {
+    display: flex;
+    flex-direction: column;
+}
+
+.homecontent {
+    margin: 25px;
+    max-width: 550px;
+
+    h2 {
+        font-family: 'DIN Alternate';
+        font-size: 33px;
+        text-align: center;
+    }
+    
+    p {
+        margin-top: 10%;
+        font-family: 'Arial';
+        font-size: 18px;
+        line-height: 2;
+        text-align: center;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+        width: 175px;
+        height: 60px;
+        border: none;
+        border-radius:1.5em .5em 3em 1.5em;
+        background-color: #7ea7dd;
+        color: #fff;
+        font-weight: 14px;
+        margin-top: 10%;
+
+        
+    }
+}
+
+@media screen and (min-width: 640px) {
+    #home {
+        flex-direction: row;
+    }
+    .homecontent {
+        flex: 1 1 auto;
+
+        h2 {
+            text-align: left;
+        }
+
+        p {
+            text-align: left;
+            margin-left: 2%;
+        }
+
+        button {
+            margin-left: 0;
+        }
+    }
+}
