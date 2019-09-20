@@ -1,0 +1,44 @@
+
+
+
+@media screen and (min-width: 640px) {
+    #portfolio
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 300px;
+    }
+
+    #avatar {
+        width: 400px;
+				height: 400px;
+				background-color:#fff;
+				border-radius: 50%;
+				position: relative;
+    }
+
+    .avatar {
+        width: 160px;
+        height: 160px;
+        position: absolute;
+        border-radius: 50%;
+        border:dashed #1f3a7f 3px;
+        
+        left: 50%;
+        margin-left: -80px;
+        margin-top: -80px;
+    }
+
+    #xia {
+        transform: rotate(-60deg);
+        transform-origin:80px 400px;
+    }
+    #chen {
+        transform: rotate(-120deg);
+        transform-origin:80px 400px;
+    }
+    #zou {
+        transform: rotate(-180deg);
+        transform-origin:80px 400px;
+    }
+}
