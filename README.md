@@ -28,14 +28,19 @@ Bootcamp is the project that using Html, Sass and JavaScript to create the websi
 Pull requests are welcome. For any changes, pleace follow the instruction below to submit your changes request.
 
 1.Create your feature branch: git checkout -b [new branch name]
+
 2.Add changes to the Index: git add [changed filename]
+
 3.Commit your changes: git commit -m 'Add some feature'
+
 4.Push to the branch: git push origin [new branch name]
+
 5.Submit a pull request. Thanks!
 
 ## Authors:
 
 web design: Mingqian Xia & Jianghaonan Wang;
+
 web development: Bolin Chen & Ling Zou;
 
 ## Credits:
