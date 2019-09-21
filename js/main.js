@@ -20,50 +20,32 @@ function closeMenu() {
     button.addEventListener("click", openMenu, false);
 
     window.addEventListener("resize", closeMenu);
-
+    
 
 
     import People from "./modules/dataObject.js";
 
+    const wangButton = document.querySelector("#wang"),
+          xiaButton = document.querySelector("#xia"),
+          chenButton = document.querySelector("#chen"),
+          zouButton = document.querySelector("#zou");
 
-    const bioInfo = document.querySelector('.wrapper-content').children;
+
     function showTeamData(){
-        // change data on the page here
-
-        // this is the label on the button
-        let currentMember = this.textContent;
-
-        // this refers to the heading tag (the first child of the bio-wrapper div)
-        bioInfo[0].textContent = People[currentMember].name;
-        // this refers to the paragraph tag (the second child of the bio-wrapper div)
-        bioInfo[1].textContent = People[currentMember].position;
-
-        bioInfo[2].textContent = People[currentMember].description;
-
-        bioInfo[3].textContent = People[currentMember].motto;
-
-
-
-        bioInfo[4]. src = `images/${People[currentMember].photo}`;
-        
+        let currentMember = this.id;
+        document.getElementById("name").textContent = People[currentMember].name;
+        document.getElementById("position").textContent = People[currentMember].position;
+        document.getElementById("description").textContent = People[currentMember].description;
+        document.getElementById("motto").textContent = People[currentMember].motto;
+        document.getElementById("big-photo").src = People[currentMember].photo;
     }
 
-    // for fixed
-    for (let name in People) {
-        console.log(name);
-
-        // create a button for every name(every entry) in our object
-        let teamButton = document.getElementsByClassName('avatar');
-
-        // set the button's label (text) to the name name (the current entry in the object)
-        teamButton.textContent = name;
-        
-        // add some event handling so that when we click one of our new buttons, we can show the right data
-        teamButton.addEventListener('click', showTeamData);
-
-        // add the button to the top of our web page
-        document.querySelector("#portfolio").appendChild(teamButton);
-    }
+    wangButton.addEventListener("click", showTeamData, false);
+    xiaButton.addEventListener("click", showTeamData, false);
+    chenButton.addEventListener("click", showTeamData, false);
+    zouButton.addEventListener("click", showTeamData, false);
+    
+    
  
 
     const 
