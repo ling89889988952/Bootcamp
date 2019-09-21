@@ -50,16 +50,20 @@ function closeMenu() {
 
     const 
           promotionVideo = document.querySelector('.pro-video'), 
-          controlButton = document.querySelector('.control-toggle'),
+          pauseButton = document.querySelector(".pauseButton"),
+          playButton = document.querySelector(".playButton"),
           rewind = document.querySelector(".rwButton"),
           volumeBar = document.querySelector('.volume-bar');
 
-            function toggleVideo() {
-                if(video.paused) 
-                    video.play();
-                else
-                    video.pause();
-            }
+          function pauseVideo() {
+            promotionVideo.pause();
+        
+          }
+        
+          function playVideo() {
+            promotionVideo.play();
+          }
+        
 
             function rewindVideo() {
                 promotionVideo.currentTime = 0;
@@ -71,6 +75,7 @@ function closeMenu() {
             }
 
 
-            controlButton.addEventListener('click', toggleVideo);
+            pauseButton.addEventListener("click", pauseVideo);
+            playButton.addEventListener("click", playVideo);
             rewind.addEventListener("click", rewindVideo);
 	        volumeBar.addEventListener('change', changeVolume);
