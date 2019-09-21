@@ -6,7 +6,7 @@ const Team = {
         Role: "",
         Experience: "",
         Bio: "",
-        Avator: ""
+        Avator: "
     },
 
     Xia :{
