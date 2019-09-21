@@ -45,10 +45,10 @@ function closeMenu() {
 
 
         bioInfo[4]. src = `images/${People[currentMember].photo}`;
-        // bioInfo[2]. src = `images/${Person.avator}`;
+        
     }
 
-
+    // for fixed
     for (let name in People) {
         console.log(name);
 
