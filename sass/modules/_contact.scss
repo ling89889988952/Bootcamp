@@ -1,0 +1,189 @@
+#contact{
+    display: flex;
+    flex-direction: coloum;
+    text-align: center;
+}
+
+#contact-area{
+    margin: 0 auto;
+    flex-direction: row;
+
+    .contact-logo{
+        margin-left:5px;
+    }
+
+    .contact-tagline{
+        font-family: 'DIN Alternate';
+        font-size:15px;
+        margin-right:60px;
+        color:#303030; 
+    }
+}
+
+.contact-img{
+    flex-direction: row;
+    margin: auto 65px;
+
+    .image-one{
+        margin-top:70px;
+    }
+
+    .image-two{
+        margin-top:10px; 
+    }
+}
+
+.contact-content{
+    margin: 35px auto;
+}
+
+.contact-title{
+    display: inline-block;
+    font-family: 'DIN Alternate';
+    margin-bottom: 25px;
+
+    h2{
+        font-size: 38px;
+        color:#303030; 
+    }
+    p{
+        font-size: 18px;
+        color: #7ea7dd;
+    }
+}
+
+.contact-intro{
+    h3{
+        font-family: 'DIN Alternate';
+        font-size: 19px;
+        color: #1f3a7f;
+        
+    }
+    h4{
+        font-family: 'DIN Alternate';
+        font-size: 10px;
+        color: #1f3a7f;
+    }
+    p{
+        font-family: 'Arial';
+        font-size:13px;
+        color:#303030; 
+        margin: 25px auto;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #contact{
+        flex-direction: coloum;
+        text-align: center;
+        margin: auto 30px;
+    }
+
+    #contact-area{
+        
+        display: inline-block;
+        margin-bottom: 50px;
+        h3{
+            font-family: 'DIN Alternate';
+            font-size: 20px;
+            color:#303030;
+        }
+    }
+
+    #contact-info{
+        display: flex;
+        flex-direction: row;
+       
+    
+       .image-one{
+                margin-top: 90px;
+            }
+
+        
+        }
+
+
+        .contact-title{
+            margin-bottom: 30px;
+            h2{
+                font-size: 50px;
+            }
+            p{
+                font-size: 18px;
+            }
+
+        }
+    }
+
+    .contact-intro{
+        h4{
+            font-size: 19px;
+        }
+
+    }
+
+    .contact-intro{
+        h3{
+            font-family: 'DIN Alternate';
+            font-size: 19px;
+            color: #1f3a7f; 
+        }
+
+        p{
+            font-size: 12px;
+            margin:18px auto;
+        }
+    
+    }
+
+    @media screen and (min-width: 960px){
+        #contact{
+            margin: auto 55px;
+        }
+
+        #contact-area{
+            margin-bottom: 60px;
+            h3{
+                font-size: 26px;
+                margin-left: 48px;
+            }
+        }
+
+        .image-one{
+            margin-top: 110px;
+        }
+
+        .contact-title{
+            margin-bottom: 40px;
+            h2{
+                font-size: 66px;
+            }
+            p{
+                font-size: 24px;
+            }
+
+        }
+
+        .contact-intro{
+            h3{
+                font-size: 24px;
+            }
+
+            h4{
+                font-size: 24px;
+            }
+
+            p{
+                font-size: 12px;
+                margin:28px auto;
+            }
+
+            }
+    
+    }
+
+
+
+   
+
+    

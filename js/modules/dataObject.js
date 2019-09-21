@@ -4,7 +4,7 @@ const Team = {
         position: "",
         description: "",
         motto: "",
-        photo: ""
+        photo: " "
     },
 
     Xia : {
