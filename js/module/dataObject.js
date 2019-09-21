@@ -3,9 +3,9 @@ const Team = {
     Wang : {
         LastName: "Wang",
         FirstName:"Jianghaonan",
-        Role: "",
-        Experience: "",
-        Bio: "",
+        Role: "Web Designer",
+        Experience: "Two years of design experience, willing to innovate",
+        Bio: "A designer who is committed to innovation and likes to design something different.",
         Avator: ""
     },
 
