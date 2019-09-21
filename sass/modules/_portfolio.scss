@@ -27,18 +27,37 @@
         left: 50%;
         margin-left: -80px;
         margin-top: -80px;
+        text-align: center;
+
+        img {
+            width: 90%;
+            border-radius: 50%;
+            margin-top: 5%;
+        }
     }
 
     #xia {
         transform: rotate(-60deg);
         transform-origin:80px 400px;
+
+        img {
+            transform: rotate(60deg);
+        }
     }
     #chen {
         transform: rotate(-120deg);
         transform-origin:80px 400px;
+
+        img {
+            transform: rotate(120deg);
+        }
     }
     #zou {
         transform: rotate(-180deg);
         transform-origin:80px 400px;
+
+        img {
+            transform: rotate(180deg);
+        }
     }
 }
