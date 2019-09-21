@@ -3,9 +3,6 @@
 @import "_vars";
 
 
-body {
-   
-}
 
 #container {
     margin: 0 auto;
@@ -16,5 +13,6 @@ body {
 @import "modules/_home";
 @import "modules/_features";
 @import "modules/_portfolio";
+@import "modules/_about";
 @import "modules/_contact";
 @import "modules/_footer";
