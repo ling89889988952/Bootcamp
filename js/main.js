@@ -65,4 +65,30 @@ function closeMenu() {
         document.querySelector("#portfolio").appendChild(teamButton);
     }
  
-    
+
+    const 
+          promotionVideo = document.querySelector('.pro-video'), 
+          controlButton = document.querySelector('.control-toggle'),
+          rewind = document.querySelector(".rwButton"),
+          volumeBar = document.querySelector('.volume-bar');
+
+            function toggleVideo() {
+                if(video.paused) 
+                    video.play();
+                else
+                    video.pause();
+            }
+
+            function rewindVideo() {
+                promotionVideo.currentTime = 0;
+                playVideo();
+              }
+        
+            function changeVolume() {
+                video.volume = volumeBar.value;
+            }
+
+
+            controlButton.addEventListener('click', toggleVideo);
+            rewind.addEventListener("click", rewindVideo);
+	        volumeBar.addEventListener('change', changeVolume);

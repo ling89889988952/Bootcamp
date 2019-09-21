@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>W+B Company</title>
     <link
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
@@ -33,10 +33,22 @@
                         cross-disciplinary knowledge and experience 
                         incorporating them into new cooperations
                 </p>
-                <button>View Detail</button>
+                <button><a href="#about">View Detail</a></button>
             </div>
             <div class="homecontent">
                 <!-- leave for computer element -->
+                <!-- add the video element  -->
+                <video controls class="pro-video" src="" type="video/mp4"></video>
+                <!-- add the video control buttom, need modify the css -->
+                <div class="controlBox">
+                    <button class="control-toggle">Play/Stop</button>
+                    <button class="rwButton">Rewind</button>
+                    <div class="control-volume">
+                        <span>0</span>
+                        <input type="range" class="volume-bar" min="0" max="1" step="0.1" value="1">
+                        <span>1</span>
+                    </div>
+            </div>
             </div>
         </div>
 
@@ -102,11 +114,106 @@
             </div>
         </div>
 
+         <!-- about part -->
+        <div id="about">
+            <h2>About W + B</h2>
+               <h3>WHO WE ARE </h3> 
+               <h4>The team of web design</h4>
+
+               <div class="about-content">
+                    <div class="about-culture" class="about-detail">
+                            <!-- here lack the culture picture -->
+                            <img>
+                            <h5>Culture</h5>
+                            <p>Regarding the culture of W+B, our team is composed of four young 
+                                people, our design will be more innovative, and the core culture 
+                                of our team is Out of the ordinary.</p>
+                    </div>
+
+                   <div class="about-team" class="about-detail">
+                       <!-- here lack the team picture -->
+                       <img>
+                       <h5>Team</h5>
+                       <p>As a web design team we have a same goal, 
+                           and everyone on the team has different abilities and skills. 
+                           Our team is innovative, has a same goal, and has a different 
+                           areas of knowledge. We are not the best, but we will try to be 
+                           the best.</p>
+                   </div>
+                   
+                   <div class="about-services" class="about-detail">
+                       <!-- here lack the services picture -->
+                       <img>
+                       <h5>Services</h5>
+                       <p>W+B provides design services such as advertising design, logo design 
+                           and web design. We also provide the production, operation and maintenance 
+                           of your website.</p>
+                   </div>
+               </div>
+            </div>
+            
+        </div>
+
+        <!-- contact part -->
         <div id="contact">
+            <div id="contact-area">
+                <div class="contact-logo" class="contact-top"> 
+                    <!-- here lack the logo picture -->
+                    <img>
+                </div>
+                <div class="contact-tagline" class="contact-top">
+                        <h3>Out of the ordinary</h2>
+                </div>
+            </div>
+
+            <div id="contact-info">
+                <div class="contact-content" class="contact-img">
+                    <!-- here lack two contact pictures -->
+                    <img class="image-one">
+                    <img class="image-two">
+                </div>
+                <div class="contact-content" class="contact-detail">
+                    <div class="contact-title">
+                        <h2>Contact</h2>
+                        <p>Us and Tell Us!</p>
+                    </div>
+                    <div class="contact-intro">
+                        <h3>What you need?</h3>
+                        <p>At any time, when you need us to help you design 
+                            or make a website, you can find us through the 
+                            contact information below, we will always waiting 
+                            for you.</p>
+                        <h4>Get In Touch</h4>
+                        <p>Ask for Job</p>
+                        <p>hrofwb@gmail.com</p>
+                        <p>Business</p>
+                        <p>businessofwb@gmail.com</p>
+                        <p> Design services</p>
+                        <p>dsofwb@gmail.com</p>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
         <footer id="footer">
+            <div class="footer-left">
+                <div class="footer-socail">
+                    <!-- here lack the socail media icon picture -->
+                </div>
+                <div class="footer-address">
+                    <p>700 King St</p>
+                    <p>3th Floor</p>
+                    <p>W+B</p>
+                    <p>N5W 0A6</p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <!-- here lack the logo image -->
+                <img>
+                <p>© W+B @2019 </p>
+            </div>
+
 
         </footer>
     </div>

@@ -1,0 +1,153 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    h2{
+        font-family: 'DIN Alternate';
+        font-size:38px;
+        margin: 25px auto;
+        color:#303030;  
+    }
+
+    h3{
+        color: #7ea7dd;
+        font-family: 'Arial';
+        font-size: 27px;
+        margin: 5px auto;
+    }
+
+    h4{
+        font-family: 'Arial';
+        font-size: 27px;
+        color:#303030; 
+        margin: 10px auto;
+    }
+
+}
+
+.about-content{
+    margin:10px auto;
+}
+
+.about-detail{
+    img{
+        margin:0 auto;
+    }
+    h5{
+        display: none;
+    }
+    p{
+        font-family: 'Arial';
+        font-size: 14px;
+        color:#303030; 
+        margin-bottom: 30px;
+    }
+}
+
+.about-culture{
+    p{
+        margin-top: 40px;
+    }
+}
+
+.about-team{
+    p{
+        margin-top: 10px;
+    }
+}
+   
+.about-services{
+    p{
+        margin-top: 40px;
+    }
+}
+  
+
+    
+
+
+@media screen and (min-width: 480px) {
+
+    #about{
+        text-align: center;
+        h2{
+          font-size: 50px;
+          margin-top: 100px;
+          margin-bottom:40px; 
+        }
+
+        h3{
+            font-size: 19px;
+            margin-bottom: 20px;
+        }
+
+        h4{
+            font-size:18px;
+            margin-bottom:40px; 
+        }
+    }
+  
+    .about-content{
+        display: flex;
+        flex-direction: row;
+        margin: 40px auto;
+    }
+    .about-detail{
+        flex-direction: column;
+        font-family: 'Arial';
+
+        h5{
+            font-size: 21px;
+            color: #1f3a7f;
+            margin-bottom: 25px;
+        }
+        p{
+            font-size: 12px;
+            color:#303030; 
+        }
+    }
+
+
+}
+
+@media screen and (min-width: 960px){
+    #about{
+        text-align: center;
+        h2{
+          font-size: 66px;
+          margin-top: 135px;
+          margin-bottom:45px; 
+        }
+
+        h3{
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        h4{
+            font-size:24px;
+            margin-bottom:50px; 
+        }
+    }
+  
+    .about-content{
+        display: flex;
+        flex-direction: row;
+        margin: 55px auto;
+    }
+    .about-detail{
+        flex-direction: column;
+        font-family: 'Arial';
+
+        h5{
+            font-size: 27px;
+            color: #1f3a7f;
+            margin-bottom: 45px;
+        }
+        p{
+            font-size: 16px;
+            color:#303030; 
+        }
+    }
+}
