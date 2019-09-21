@@ -1,8 +1,62 @@
-#features {
+#featureHead {
+
+    text-align: center;
 
     h2 {
         text-align: center;
         font-family: 'DIN Alternate';
-        font-size: 55px;
+        font-size: 45px;
+        margin-bottom: 10%;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #4d4da3;
+        
+    }
+}
+
+#featureSub {
+
+    margin-top: 10%;
+    h3 {
+        font-family: 'DIN Alternate';
+        text-align: center;
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+}
+
+
+.featureContent{
+    margin: 0 auto;
+    h3 {
+        text-align: center;
+        color: #1f3a7f;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    p {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 200%;
+        letter-spacing: 1.5px;
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    #featureContent {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .featureContent {
+        margin-left: 0%;
     }
 }
