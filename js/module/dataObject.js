@@ -3,10 +3,17 @@ const Team = {
     Wang : {
         LastName: "Wang",
         FirstName:"Jianghaonan",
+<<<<<<< HEAD
         Role: "",
         Experience: "",
         Bio: "",
         Avator: "
+=======
+        Role: "Web Designer",
+        Experience: "Two years of design experience, willing to innovate",
+        Bio: "A designer who is committed to innovation and likes to design something different.",
+        Avator: ""
+>>>>>>> 7fd64351e7372c54b91285948db885be5e1692dc
     },
 
     Xia :{
